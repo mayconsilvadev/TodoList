@@ -25,4 +25,4 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O TodoList é um aplicação mobile de criação e controle de tarefas.
+O TodoList é uma aplicação mobile de criação e controle de tarefas.
