@@ -3,13 +3,16 @@ import { theme } from '../../styles/theme'
 
 export const styles = StyleSheet.create({
     taskContainer: {
-        width: '100%',
+        width: '90%',
         height: 64,
         backgroundColor: theme.gray[500],
         flexDirection: 'row',
         alignItems: 'center',
-        justifyContent: 'space-between',
-        marginVertical: 4,
+        justifyContent: 'center',
+        marginTop: 8,
+        marginLeft: 24,
+        marginRight: 20,
+        marginBottom: 1,
         paddingHorizontal: 12,
         paddingVertical: 20,
         borderRadius: 8,

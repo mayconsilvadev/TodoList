@@ -5,14 +5,16 @@ export const styles = StyleSheet.create({
     emptyContainer: {
         flex: 1,
         alignItems: 'center',
+        justifyContent: 'center',
         width: '100%',
-        paddingVertical: 50,
-        paddingHorizontal: 70,
+        paddingVertical: 39,
+        paddingHorizontal: 24,
         borderTopColor: theme.gray[300],
         borderBottomColor: theme.gray[600],
         borderLeftColor: theme.gray[600],
         borderRightColor: theme.gray[600],
         borderWidth: 1,
+        
     },
     image: {
         marginBottom: 16,

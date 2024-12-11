@@ -1,7 +1,7 @@
 import { View, StyleSheet, StatusBar } from 'react-native';
-import { Home } from './src/screens/Home';
+import { Home } from './src/components/Home';
 import { theme } from './src/styles/theme';
-import { Infor } from './src/components/infor';
+import { HomeScreens } from './src/screens';
 import { useFonts, Inter_400Regular, Inter_700Bold } from '@expo-google-fonts/inter';
 
 
@@ -25,8 +25,8 @@ export default function App() {
       /> 
 
 
-      <Home/>
-      <Infor/>
+      
+      <HomeScreens/>
     </View>
   );
 }
