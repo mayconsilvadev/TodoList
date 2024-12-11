@@ -12,7 +12,7 @@ Esse projeto ainda está em andamento, é um projeto indicado pelo o pessoal do 
 <br>
 
 <p align="center">
-  <img alt="TodoList" src="./src/assets/todolist.png" width="70%">
+  <img alt="TodoList" src="./src/assets/todolist.png" width="60%">
 </p>
 
 ## 🚀 Tecnologias
