@@ -1,7 +1,16 @@
-import { View, Text } from 'react-native'
+import { useState } from 'react'
+import { View, Text, FlatList } from 'react-native'
 import { styles } from './styles'
+import { Task } from '../task'
+import { TaskDTO } from '../../dtos/TaskDTO'
+import { Empty } from '../empty'
 
 export function Infor(){
+    const [tasks, setTasks] = useState<TaskDTO[]>([
+        
+
+    ]);
+    
     return(
         <View style={styles.container}>
             <View style={styles.infor}>
@@ -27,6 +36,19 @@ export function Infor(){
                     </View>
                 
             </View>
+
+            <FlatList 
+               data={tasks}
+               keyExtractor={(tasks) => tasks.id!}
+               renderItem={({ item }) => ( 
+               <Task 
+               key={item.id}
+               isCompleted={item.isCompleted}
+               title={item.title}
+               />
+             )}
+             ListEmptyComponent={<Empty/>}
+            />
         </View>
     )
 }

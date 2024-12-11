@@ -3,12 +3,12 @@ import { theme } from "../../styles/theme";
 
 export const styles = StyleSheet.create({
     container: {
-        flex: 1,
+       
         justifyContent: 'space-between',
         marginTop: 55,
         marginHorizontal: 25,
         marginLeft: 30,
-        marginRight: 10
+        marginRight: 30
         
     },
 
@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        marginBottom: 50,
+        marginBottom: 20,
     },
 
     row: {
