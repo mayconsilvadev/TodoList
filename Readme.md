@@ -7,12 +7,17 @@ Esse projeto ainda está em andamento, é um projeto indicado pelo o pessoal do 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estudo">Estudo</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="TodoList" src="./src/assets/todolist.png" width="60%">
+  <img alt="TodoList" src="./src/assets/todolist.png" width="50%">
+  <img alt="TodoList" src="./src/assets/input.png" width="50%">
+  <img alt="TodoList" src="./src/assets/task_created.png" width="50%">
+  <img alt="TodoList" src="./src/assets/task_completed.png" width="50%">
+  <img alt="TodoList" src="./src/assets/delete_task.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
@@ -26,3 +31,9 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O TodoList é uma aplicação mobile de criação e controle de tarefas.
+
+## 📓 Estudo
+
+O professor falou que não podemos nos preocupar em decorar os códigos e se for o caso de ter dúvidas procurasse nos códigos anteriores.
+
+Então esse projeto não foi feito 100% da minha cabeça, tive ajuda dos códigos feito pela as aulas anteriores.

@@ -33,6 +33,9 @@ export const styles = StyleSheet.create({
     fontFamily: 'Inter-Regular', 
     color: theme.gray[100]
   },
+  inputBorder: {
+    borderColor: theme.purple[200]
+  },
   button: {
     width: 52,
     height: 52,
