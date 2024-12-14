@@ -13,10 +13,20 @@ export function HomeScreens(){
     const newTaskInputRef = useRef<TextInput>(null)
 
     function handleTaskAdd(){
+        const isDuplicate = tasks.some((task) => 
+            task.title.toLowerCase()
+            === newTask.trim().toLowerCase()
+        );
+
+        if (isDuplicate) {
+            Alert.alert('Tarefa duplicada', 'Essa tarefa já foi adicionada!')
+            return
+        }
+
       if(newTask !== '' && newTask.length >= 5) {
           setTasks((tasks) => [...tasks, 
           {id: uuid() , isCompleted: false, title: newTask.trim() }, 
-        ]);
+        ]); 
         seteNewTask('');
 
         newTaskInputRef.current?.blur()

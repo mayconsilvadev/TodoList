@@ -18,6 +18,7 @@ Esse projeto ainda está em andamento, é um projeto indicado pelo o pessoal do 
   <img alt="TodoList" src="./src/assets/task_created.png" width="50%">
   <img alt="TodoList" src="./src/assets/task_completed.png" width="50%">
   <img alt="TodoList" src="./src/assets/delete_task.png" width="50%">
+  <Img alt="TodoList" src="./src/assets/duplicate_task.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
