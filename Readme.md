@@ -1,7 +1,7 @@
 <h1 align="center"> TodoList </h1>
 
 <p align="center">
-Esse projeto ainda está em andamento, é um projeto indicado pelo o pessoal do curso da Rochetseat, para praticarmos os nossos conhecimentos adquirido durante o curso. 
+Projeto está finalizado, é um projeto indicado pelo o pessoal do curso da Rochetseat, para praticarmos os nossos conhecimentos adquirido durante o curso. 
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Esse projeto ainda está em andamento, é um projeto indicado pelo o pessoal do 
 
 ## 🚀 Tecnologias
 
-Esse projeto está sendo desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - React Native
 - TypeScript
